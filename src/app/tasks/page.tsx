@@ -127,15 +127,16 @@ export default function Tasks() {
 
                     {/* Task Title */}
                     <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3">
-                      <span
-                        className={`text-base font-medium transition-all duration-300 ${
+                      <Link
+                        href={`/tasks/${task.id}`}
+                        className={`text-base font-medium transition-all duration-300 hover:text-amber-500 hover:underline ${
                           task.completed
-                            ? "line-through text-zinc-600"
+                            ? "line-through text-zinc-600 hover:text-zinc-500"
                             : "text-zinc-100"
                         }`}
                       >
                         {task.text}
-                      </span>
+                      </Link>
                     </div>
                   </div>
 

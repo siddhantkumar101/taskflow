@@ -40,9 +40,6 @@ export default function Dashboard() {
             >
               Go to Tasks
             </Link>
-            <button className="bg-amber-600 px-5 py-2.5 rounded-xl text-sm font-bold text-white hover:bg-amber-500 transition-all duration-200 shadow-lg shadow-amber-600/10 cursor-pointer">
-              Logout
-            </button>
           </div>
         </div>
 

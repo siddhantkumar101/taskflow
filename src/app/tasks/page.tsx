@@ -33,12 +33,20 @@ export default function Tasks() {
               Create, organize, and manage your ongoing work tasks.
             </p>
           </div>
-          <Link
-            href="/"
-            className="bg-zinc-900 border border-zinc-800 px-4 py-2 rounded-xl text-sm font-semibold text-zinc-300 hover:text-white hover:bg-zinc-800 transition-all duration-200 cursor-pointer"
-          >
-            Back to Home
-          </Link>
+          <div className="flex gap-3">
+            <Link
+              href="/"
+              className="bg-zinc-900 border border-zinc-800 px-4 py-2 rounded-xl text-sm font-semibold text-zinc-300 hover:text-white hover:bg-zinc-800 transition-all duration-200 cursor-pointer"
+            >
+              Back to Home
+            </Link>
+            <Link
+              href="/dashboard"
+              className="bg-zinc-905 border border-amber-500/20 text-amber-500 px-4 py-2 rounded-xl text-sm font-semibold hover:bg-amber-500/10 hover:text-amber-400 transition-all duration-200 cursor-pointer"
+            >
+              Go to Dashboard
+            </Link>
+          </div>
         </div>
 
         {/* Task Input Section */}
